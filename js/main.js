@@ -62,6 +62,7 @@
         Carousel Slider
     --------------------*/
      $(".hero-items").owlCarousel({
+        autoplay:true,
         loop: true,
         margin: 0,
         nav: true,
@@ -71,9 +72,7 @@
         animateIn: 'fadeIn',
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
         smartSpeed: 1200,
-        autoplayHoverPause: true,
         mouseDrag: false,
-        autoplay: false,
     });
 
     /*------------------
